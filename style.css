@@ -1,0 +1,19 @@
+h3 {
+font-size: 25px !important;
+}
+
+.btn-success {
+    background-color: rgb(194, 214, 231);
+}
+
+canvas {
+animation-name: Cat;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes Cat {
+    from {box-shadow: 1px 1px 38px rgb(128, 90, 2)}
+    to {box-shadow: 1px 1px 38px rgb(113, 2, 2)}
+
+}
